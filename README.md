@@ -1,103 +1,121 @@
-🦎 Camouflaged Object Detection with Boundary Localization in Complex Backgrounds
+Gotcha 👍
+Here’s the **same README**, but with **clean spacing, strong bolding, emojis, and clear section breaks** so it looks **attractive and professional on GitHub**.
 
-This project presents a CNN-based deep learning framework for detecting camouflaged objects and accurately localizing their boundaries in complex backgrounds. The model is designed to handle low-contrast scenes where foreground objects blend naturally with the background.
+You can paste this **as-is** into `README.md`.
 
-📌 Project Overview
+---
 
-Camouflaged Object Detection (COD) is a challenging computer vision problem due to the high similarity between objects and their surroundings in terms of color, texture, and structure.
+# 🦎 **Camouflaged Object Detection with Boundary Localization**
 
-This project uses an encoder–decoder CNN architecture with dual output branches:
+### *In Complex Backgrounds*
 
-Segmentation branch for detecting camouflaged objects
+---
 
-Boundary localization branch for precise contour detection
+## 📌 **Project Overview**
 
-This approach improves detection accuracy and boundary sharpness.
+**Camouflaged Object Detection (COD)** is one of the most challenging problems in computer vision because the target objects intentionally or naturally blend into their surroundings.
 
-🎯 Objectives
+This project proposes a **CNN-based deep learning framework** that not only detects camouflaged objects but also **accurately localizes their boundaries**, even in **low-contrast and complex scenes**.
 
-Detect camouflaged objects in complex environments
+---
 
-Accurately localize object boundaries
+## 🎯 **Objectives**
 
-Reduce background interference
+* ✅ Detect camouflaged objects in complex environments
+* ✅ Accurately localize object boundaries
+* ✅ Reduce background interference
+* ✅ Improve robustness and generalization
 
-Improve robustness and generalization
+---
 
-🧠 Methodology
+## 🧠 **Proposed Methodology**
 
-Input image acquisition
+The system follows a **dual-branch encoder–decoder CNN architecture**:
 
-Image preprocessing (resize, normalization)
+1. **Input Image Acquisition**
+2. **Preprocessing**
 
-Feature extraction using CNN encoder
+   * Image resizing
+   * Normalization
+3. **Feature Extraction**
 
-Multi-scale feature fusion
+   * CNN encoder for hierarchical features
+4. **Multi-scale Feature Fusion**
+5. **Dual Output Prediction**
 
-Dual-output prediction:
+   * 🟢 **Segmentation Mask**
+   * 🔵 **Boundary Localization Map**
+6. **Post-processing & Visualization**
 
-Object segmentation mask
+---
 
-Boundary localization map
+## 📂 **Datasets Used**
 
-Post-processing and visualization
+The model is trained and evaluated using **benchmark camouflaged object detection datasets** with pixel-level annotations.
 
-📂 Datasets Used
-
-The model is trained and evaluated using benchmark camouflaged object detection datasets with pixel-level annotations:
-
-CAMO Dataset
+### 🗂️ **CAMO Dataset**
 
 A widely used dataset containing challenging low-contrast camouflaged scenes.
 
-🔗 https://sites.google.com/view/ltnghia/research/camo
+🔗 **Link:**
+[https://sites.google.com/view/ltnghia/research/camo](https://sites.google.com/view/ltnghia/research/camo)
 
-COD10K Dataset
+---
+
+### 🗂️ **COD10K Dataset**
 
 A large-scale camouflaged object detection dataset with diverse and complex backgrounds.
 
-🔗 https://paperswithcode.com/dataset/cod10k
+🔗 **Link:**
+[https://paperswithcode.com/dataset/cod10k](https://paperswithcode.com/dataset/cod10k)
 
-NC4K Dataset
+---
 
-An extended evaluation dataset used to test the generalization performance of COD models.
+### 🗂️ **NC4K Dataset**
 
-🔗 https://github.com/lartpang/awesome-segmentation-saliency-dataset
+An extended evaluation dataset used to test the **generalization capability** of COD models.
 
-(Refer to the “NC4K” entry)
+🔗 **Link:**
+[https://github.com/lartpang/awesome-segmentation-saliency-dataset](https://github.com/lartpang/awesome-segmentation-saliency-dataset)
+*(Refer to the **NC4K** entry)*
 
-🛠️ Technologies Used
+---
 
-Python
+## 🛠️ **Technologies Used**
 
-Convolutional Neural Networks (CNN)
+* **Python**
+* **Convolutional Neural Networks (CNN)**
+* **PyTorch / TensorFlow**
+* **OpenCV**
+* **NumPy**
+* **Matplotlib**
+* **Jupyter Notebook**
 
-PyTorch / TensorFlow
+---
 
-OpenCV
+## 📊 **Output Results**
 
-NumPy
+The model generates:
 
-Matplotlib
+* 🟢 **Binary segmentation masks**
+* 🔵 **Boundary localization maps**
+* 🖼️ **Overlay visualizations** highlighting camouflaged objects
 
-Jupyter Notebook
+---
 
-📊 Output
+## 🚀 **Applications**
 
-Camouflaged object segmentation masks
+* 🛡️ Defense and surveillance
+* 🏥 Medical image analysis
+* 🐾 Wildlife monitoring
+* 🌊 Underwater exploration
+* 🚨 Search and rescue operations
 
-Boundary localization maps
+---
 
-Overlay visualizations highlighting detected objects
 
-🚀 Applications
+### ⭐ *If you like this project, don’t forget to star the repository!*
 
-Defense and surveillance
+---
 
-Medical image analysis
 
-Wildlife monitoring
-
-Underwater exploration
-
-Search and rescue operations
