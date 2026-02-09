@@ -1,13 +1,7 @@
-Gotcha 👍
-Here’s the **same README**, but with **clean spacing, strong bolding, emojis, and clear section breaks** so it looks **attractive and professional on GitHub**.
-
-You can paste this **as-is** into `README.md`.
 
 ---
 
-# 🦎 **Camouflaged Object Detection with Boundary Localization**
-
-### *In Complex Backgrounds*
+# 🦎 **Camouflaged Object Detection with Boundary Localization In Complex Backgrounds**
 
 ---
 
