@@ -38,22 +38,21 @@ The model is trained and evaluated using **benchmark camouflaged object detectio
 A widely used dataset containing challenging low-contrast camouflaged scenes.
 
 🔗 **Link:**
-[https://sites.google.com/view/ltnghia/research/camo](https://sites.google.com/view/ltnghia/research/camo)
+https://www.kaggle.com/datasets/ivanomelchenkoim11/camo-dataset
 
 ### 🗂️ **COD10K Dataset**
 
 A large-scale camouflaged object detection dataset with diverse and complex backgrounds.
 
 🔗 **Link:**
-[https://paperswithcode.com/dataset/cod10k](https://paperswithcode.com/dataset/cod10k)
+https://www.kaggle.com/datasets/ivanomelchenkoim11/cod10k-dataset
 
 ### 🗂️ **NC4K Dataset**
 
 An extended evaluation dataset used to test the **generalization capability** of COD models.
 
 🔗 **Link:**
-[https://github.com/lartpang/awesome-segmentation-saliency-dataset](https://github.com/lartpang/awesome-segmentation-saliency-dataset)
-*(Refer to the **NC4K** entry)*
+https://www.kaggle.com/datasets/ivanomelchenkoim11/nc4k-dataset
 
 ## 🛠️ **Technologies Used**
 
